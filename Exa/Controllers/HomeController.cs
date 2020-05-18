@@ -26,11 +26,13 @@ namespace Exa.Controllers
 
             return View();
         }
-        public ActionResult Inicio()
+
+        public ActionResult Tabla1()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
+
     }
 }
